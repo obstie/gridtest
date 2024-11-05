@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 219, 200);
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgb(77, 77, 50);
+    margin-top: 10px;
+    width: 100%;
+}
+.nav-img {
+    width: 300px;
+    height: auto;
+}

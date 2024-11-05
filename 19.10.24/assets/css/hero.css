@@ -1,0 +1,25 @@
+.herobutton {
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 4px;
+    color: darkblue;
+    font-weight: 600;
+}
+.hero-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1592910725283-4a7752699e67?q=80&w=1406&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    color: rgb(26, 24, 24);
+    font-size: 1.5em;
+}
+.herocontent {
+    line-height: 2.5em;    
+}
+.heading-section {
+    font-size: 1.6em;
+    padding: 40px;
+}

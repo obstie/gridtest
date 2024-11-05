@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: linear-gradient(90deg, #ececb6, #f5deb3, #d2b48c);
+    font-family: Tajawa;
+    font-size: 1.em;
+}
+
+.container {
+height: 100vh;
+display: grid;
+gap: 20px;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-template-rows: 100px 450px auto auto 900px 100px;
+grid-template-areas: 
+"n n n n n n"
+"h h h h h h"
+"hd hd hd hd hd hd"
+"c c c c c c"
+"fr fr fr fr fr fr"
+"f f f f f f";
+
+}
+header {
+    grid-area: n;
+    display: flex;
+    width: 100%;
+    background-color: #d2b48c;
+}
+.hero-section {
+    grid-area: h;
+    background-color: greenyellow;
+}
+.heading-section {
+    grid-area: hd;
+    background-color: aquamarine;
+}
+.card-section {
+    grid-area: c;
+    background-color: cadetblue;
+}
+.form-section {
+    grid-area: fr;
+    background-color: aliceblue;
+}
+.footer-section {
+    grid-area: f;
+    background-color: chocolate;
+}
